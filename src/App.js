@@ -5,6 +5,7 @@ import Navigation from './screens/navigationBar/NavigationBar';
 import Header from './screens/header/Header';
 import AboutMe from './screens/about/AboutMe';
 import Technologies from './screens/technologies/Technologies.js';
+import ContactMe from './screens/contactMe/ContactMe'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Particles/>
       <AboutMe/>
       <Technologies/>
+      <ContactMe/>
     </div>
   );
 }
