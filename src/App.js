@@ -4,6 +4,7 @@ import Particles from './Particles';
 import Navigation from './screens/navigationBar/NavigationBar';
 import Header from './screens/header/Header';
 import AboutMe from './screens/about/AboutMe';
+import Technologies from './screens/technologies/Technologies.js';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header/>
       <Particles/>
       <AboutMe/>
+      <Technologies/>
     </div>
   );
 }
