@@ -16,6 +16,21 @@
   .about__text {
     max-width: 600px;
   }
+
+  .resumeButton{
+    margin-top: 50px;
+    font-size: 30px;
+    border-radius: 10rem;
+    background-color: var(--light-color);
+    color:black;
+    padding: 1.2rem 3rem;
+  }
+
+  .resumeButton:hover{
+    background-color: var(--font-color-hover);
+    transform: scale(1.05);
+    color:white;
+  }
   
   /*  ---------------- MEDIA QUERIES ----------- */
   
